@@ -1,0 +1,31 @@
+{
+  "name": "mpv-assdraw",
+  "version": "0.0.0",
+  "description": "mpv assdraw module for JavaScript",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "prepublishOnly": "tsc",
+    "start": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kagami/mpv-assdraw.git"
+  },
+  "keywords": [
+    "mpv",
+    "mpv-script",
+    "ass",
+    "assdraw"
+  ],
+  "author": "Kagami Hiiragi",
+  "license": "LGPL-2.1-or-later",
+  "bugs": {
+    "url": "https://github.com/Kagami/mpv-assdraw/issues"
+  },
+  "homepage": "https://github.com/Kagami/mpv-assdraw#readme",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
